@@ -113,7 +113,7 @@ function App() {
                 <p>Enter Your Password</p>
                 <p>
                     <br />
-                    <input onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} onChange={handlePasswordChange} style={{borderWidth:"2px", borderRadius:"10px", padding:"5px 5px 5px 5px", borderColor:(isMouseOver?"black":"white")}} type="text" id="password"></input>
+                    <input onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} onChange={handlePasswordChange} style={{borderWidth:"2px", borderRadius:"10px", padding:"5px 5px 5px 5px", borderColor:(isMouseOver?"black":"white")}} type="password" id="password"></input>
                     <div style={{color:"#e84118"}}>
                       <p>{passwordError?"Wrong password":null}</p>
                     </div>
